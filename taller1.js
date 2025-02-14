@@ -6,8 +6,8 @@ function convertidorTemp(C){
 
 //2
 function resolvedor(a, b, c, r){
-    x1 = (-b + (b**2 - 4*a*c)**(1/2))/2*a
-    x2 = (-b - (b**2 - 4*a*c)**(1/2))/2*a
+    let x1 = (-b + (b**2 - 4*a*c)**(1/2))/2*a
+    let x2 = (-b - (b**2 - 4*a*c)**(1/2))/2*a
     if (r == 1){
         return x1
     }else{
