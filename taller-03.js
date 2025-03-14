@@ -47,8 +47,10 @@ function conversionRomana(romano) {
 //uso
 console.log(desglosarString("murcielagos", "vocales")); 
 console.log(desglosarString("murcielagos", "consonantes")); 
+
 console.log(twoSum([2, 7, 11, 15], 9));
 console.log(twoSum([3, 4, 2], 6));
+
 console.log(conversionRomana("III")); 
 console.log(conversionRomana("XIV"));
 console.log(conversionRomana("MMXXIV")); 
